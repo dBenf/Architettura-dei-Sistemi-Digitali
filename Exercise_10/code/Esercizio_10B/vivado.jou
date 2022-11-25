@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Nov 13 17:53:59 2022
+# Process ID: 12976
+# Current directory: D:/Progetti_VHDL/Esercizio_11B
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11452 D:\Progetti_VHDL\Esercizio_11B\Esercizio_11B.xpr
+# Log file: D:/Progetti_VHDL/Esercizio_11B/vivado.log
+# Journal file: D:/Progetti_VHDL/Esercizio_11B\vivado.jou
+# Running On: MagicBook-Domenico, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 16505 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Progetti_VHDL/Esercizio_11B/Esercizio_11B.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source switch_omega_network_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
