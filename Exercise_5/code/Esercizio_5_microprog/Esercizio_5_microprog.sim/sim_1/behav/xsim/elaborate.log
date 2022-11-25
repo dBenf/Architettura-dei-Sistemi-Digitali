@@ -1,0 +1,25 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_module_tb_behav xil_defaultlib.top_module_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.registro [registro_default]
+Compiling architecture behavioral of entity xil_defaultlib.unita_ctrl_ext [unita_ctrl_ext_default]
+Compiling architecture structural of entity xil_defaultlib.sys_ext [sys_ext_default]
+Compiling architecture synth of entity xil_defaultlib.microRom [microrom_default]
+Compiling architecture microprogramming of entity xil_defaultlib.unita_ctrl_microprog [unita_ctrl_microprog_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux_2_1 [mux_2_1_default]
+Compiling architecture dataflow of entity xil_defaultlib.fullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.sottrattore [sottrattore_default]
+Compiling architecture structural of entity xil_defaultlib.unita_op [unita_op_default]
+Compiling architecture structural of entity xil_defaultlib.top_module [top_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_module_tb
+Built simulation snapshot top_module_tb_behav
