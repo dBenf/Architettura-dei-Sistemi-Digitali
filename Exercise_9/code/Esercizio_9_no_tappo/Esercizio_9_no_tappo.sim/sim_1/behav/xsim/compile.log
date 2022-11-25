@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio_9_no_tappo/Esercizio_9_no_tappo.srcs/sources_1/new/2_UART.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART2'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio_9_no_tappo/Esercizio_9_no_tappo.srcs/sources_1/imports/new/UARTcomponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UARTcomponent'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio_9_no_tappo/Esercizio_9_no_tappo.srcs/sim_1/imports/new/UART_tappo_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_tappo_tb'
