@@ -1,0 +1,7 @@
+Running: xsim.dir/orologio_tb_behav/xsimk.exe -simmode gui -wdb orologio_tb_behav.wdb -simrunnum 0 -socket 53631
+Design successfully loaded
+Design Loading Memory Usage: 7100 KB (Peak: 7100 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 15552 KB (Peak: 15552 KB)
+Simulation CPU Usage: 36436 ms

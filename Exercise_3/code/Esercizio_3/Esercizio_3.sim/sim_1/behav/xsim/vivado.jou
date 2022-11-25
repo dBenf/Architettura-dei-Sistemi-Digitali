@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Nov 25 15:13:31 2022
+# Process ID: 15384
+# Current directory: D:/Documenti/universita/Magistrale/Primo_anno/Primo_semestre/Asdi/Tesina mia/Exercise_3/code/Esercizio_3/Esercizio_3.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9744 D:\Documenti\universita\Magistrale\Primo_anno\Primo_semestre\Asdi\Tesina mia\Exercise_3\code\Esercizio_3\Esercizio_3.sim\sim_1\behav\xsim\orologio_tb_behav.wdb
+# Log file: D:/Documenti/universita/Magistrale/Primo_anno/Primo_semestre/Asdi/Tesina mia/Exercise_3/code/Esercizio_3/Esercizio_3.sim/sim_1/behav/xsim/vivado.log
+# Journal file: D:/Documenti/universita/Magistrale/Primo_anno/Primo_semestre/Asdi/Tesina mia/Exercise_3/code/Esercizio_3/Esercizio_3.sim/sim_1/behav/xsim\vivado.jou
+# Running On: MagicBook-Domenico, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 16505 MB
+#-----------------------------------------------------------
+start_gui
+open_wave_database {D:\Documenti\universita\Magistrale\Primo_anno\Primo_semestre\Asdi\Tesina mia\Exercise_3\code\Esercizio_3\Esercizio_3.sim\sim_1\behav\xsim\orologio_tb_behav.wdb}
+close_sim
+close_project
