@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documenti/universita/Magistrale/Primo_anno/Primo_semestre/Asdi/Tesina mia/Exercise_11/code/Esercizio11_MoltiplicatoreBooth/Esercizio11_MoltiplicatoreBooth.srcs/sources_1/new/moltiplicatore_booth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'moltiplicatore_booth'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documenti/universita/Magistrale/Primo_anno/Primo_semestre/Asdi/Tesina mia/Exercise_11/code/Esercizio11_MoltiplicatoreBooth/Esercizio11_MoltiplicatoreBooth.srcs/sim_1/new/moltiplicatore_booth_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'moltiplicatore_booth_tb'
