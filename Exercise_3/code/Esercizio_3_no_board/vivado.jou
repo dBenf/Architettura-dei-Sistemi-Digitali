@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Nov  3 18:21:27 2022
+# Process ID: 8648
+# Current directory: D:/Progetti_VHDL/Esercizio_3_no_board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7184 D:\Progetti_VHDL\Esercizio_3_no_board\Esercizio_3_no_board.xpr
+# Log file: D:/Progetti_VHDL/Esercizio_3_no_board/vivado.log
+# Journal file: D:/Progetti_VHDL/Esercizio_3_no_board\vivado.jou
+# Running On: MagicBook-Domenico, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 16505 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Progetti_VHDL/Esercizio_3_no_board/Esercizio_3_no_board.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source orologio_tb.tcl
+run all

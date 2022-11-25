@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio_3_no_board/Esercizio_3_no_board.srcs/sources_1/imports/new/cont_mod_M.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cont_mod_M'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio_3_no_board/Esercizio_3_no_board.srcs/sources_1/imports/new/div_frequenza.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'div_frequenza'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio_3_no_board/Esercizio_3_no_board.srcs/sources_1/imports/new/orologio.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'orologio'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio_3_no_board/Esercizio_3_no_board.srcs/sim_1/imports/new/orologio_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'orologio_tb'

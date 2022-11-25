@@ -1,0 +1,21 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot orologio_tb_behav xil_defaultlib.orologio_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.div_frequenza [\div_frequenza(clock_frequency_i...]
+Compiling architecture behavioral of entity xil_defaultlib.cont_mod_M [cont_mod_m_default]
+Compiling architecture behavioral of entity xil_defaultlib.cont_mod_M [\cont_mod_M(m=24,n=5)\]
+Compiling architecture structural of entity xil_defaultlib.orologio [orologio_default]
+Compiling architecture testbench of entity xil_defaultlib.orologio_tb
+Built simulation snapshot orologio_tb_behav
