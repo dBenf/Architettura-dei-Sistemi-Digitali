@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Nov  7 13:58:30 2022
+# Process ID: 14144
+# Current directory: D:/Progetti_VHDL/Esercizio_9/Esercizio_9.runs/impl_1
+# Command line: vivado.exe -log UART_tappo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source UART_tappo.tcl -notrace
+# Log file: D:/Progetti_VHDL/Esercizio_9/Esercizio_9.runs/impl_1/UART_tappo.vdi
+# Journal file: D:/Progetti_VHDL/Esercizio_9/Esercizio_9.runs/impl_1\vivado.jou
+# Running On: MagicBook-Domenico, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 16505 MB
+#-----------------------------------------------------------
+source UART_tappo.tcl -notrace
