@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio11_DivisoreNonRestoring/Esercizio11_DivisoreNonRestoring.srcs/sources_1/new/Divisore_NR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Divisore_NR'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio11_DivisoreNonRestoring/Esercizio11_DivisoreNonRestoring.srcs/sources_1/new/counter_mod4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cont4'
