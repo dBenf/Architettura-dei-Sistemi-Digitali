@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio_11C.srcs/sources_1/imports/sources_1/new/demux_2_1.vhd" \
+"../../../../Esercizio_11C.srcs/sources_1/new/gestore_handshaking.vhd" \
+"../../../../Esercizio_11C.srcs/sources_1/imports/sources_1/imports/new/mux_2_1.vhd" \
+"../../../../Esercizio_11C.srcs/sources_1/imports/sources_1/new/switch_2_2.vhd" \
+"../../../../Esercizio_11C.srcs/sources_1/imports/sources_1/new/switch_4_4.vhd" \
+"../../../../Esercizio_11C.srcs/sources_1/new/switch_omega_handshaking.vhd" \
+"../../../../Esercizio_11C.srcs/sources_1/imports/sources_1/new/switch_omega_network.vhd" \
+"../../../../Esercizio_11C.srcs/sources_1/imports/sources_1/new/unita_controllo.vhd" \
+"../../../../Esercizio_11C.srcs/sim_1/new/switch_omega_handshaking_tb.vhd" \
+
+# Do not sort compile order
+nosort

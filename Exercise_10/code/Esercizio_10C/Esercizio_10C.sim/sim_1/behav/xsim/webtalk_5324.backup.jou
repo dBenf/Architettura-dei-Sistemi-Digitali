@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Dec  4 12:38:58 2021
+# Process ID: 5324
+# Current directory: C:/Users/Antonio Biondi/project_10C/project_10C.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Antonio Biondi/project_10C/project_10C.sim/sim_1/behav/xsim/xsim.dir/switch_omega_handshaking_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Antonio Biondi/project_10C/project_10C.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Antonio Biondi/project_10C/project_10C.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Antonio -notrace
