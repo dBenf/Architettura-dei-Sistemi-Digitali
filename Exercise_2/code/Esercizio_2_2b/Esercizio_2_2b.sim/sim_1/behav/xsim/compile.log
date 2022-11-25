@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio2_b/Esercizio2_b.srcs/sources_1/new/flipflopD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'flipflopD'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio_2_2b/Esercizio_2_2b.srcs/sources_1/new/memoria.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'memoria'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio_2_2b/Esercizio_2_2b.srcs/sources_1/new/rete_comb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rete_comb'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio_2_2b/Esercizio_2_2b.srcs/sources_1/new/riconoscitore_hyb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'riconoscitore_hyb'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Progetti_VHDL/Esercizio_2_2b/Esercizio_2_2b.srcs/sim_1/new/riconoscitore_hyb_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'riconoscitore_hyb_tb'

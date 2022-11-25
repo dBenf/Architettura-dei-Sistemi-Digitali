@@ -1,0 +1,18 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot riconoscitore_hyb_tb_behav xil_defaultlib.riconoscitore_hyb_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.flipflopD [flipflopd_default]
+Compiling architecture structural of entity xil_defaultlib.memoria [memoria_default]
+Compiling architecture dataflow of entity xil_defaultlib.rete_comb [rete_comb_default]
+Compiling architecture structural of entity xil_defaultlib.riconoscitore_hyb [riconoscitore_hyb_default]
+Compiling architecture behavioral of entity xil_defaultlib.riconoscitore_hyb_tb
+Built simulation snapshot riconoscitore_hyb_tb_behav

@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Esercizio2_b/Esercizio2_b.srcs/sources_1/new/flipflopD.vhd" \
+"../../../../Esercizio_2_2b.srcs/sources_1/new/memoria.vhd" \
+"../../../../Esercizio_2_2b.srcs/sources_1/new/rete_comb.vhd" \
+"../../../../Esercizio_2_2b.srcs/sources_1/new/riconoscitore_hyb.vhd" \
+"../../../../Esercizio_2_2b.srcs/sim_1/new/riconoscitore_hyb_tb.vhd" \
+
+# Do not sort compile order
+nosort
