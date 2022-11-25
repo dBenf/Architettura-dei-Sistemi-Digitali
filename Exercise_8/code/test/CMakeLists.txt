@@ -1,0 +1,1 @@
+add_vhdl_test_sources_directory(vhdl/)
