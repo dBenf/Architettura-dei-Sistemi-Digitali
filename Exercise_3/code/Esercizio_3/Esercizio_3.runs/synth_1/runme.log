@@ -1,0 +1,339 @@
+
+*** Running vivado
+    with args -log orologio.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source orologio.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source orologio.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/utils_1/imports/synth_1/orologio.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/utils_1/imports/synth_1/orologio.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top orologio -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4448
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1277.109 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'orologio' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:57]
+	Parameter clock_frequency_in bound to: 50000000 - type: integer 
+	Parameter clock_frequency_out bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'div_frequenza' declared at 'D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/div_frequenza.vhd:34' bound to instance 'divisore_di_frequenza' of component 'div_frequenza' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'div_frequenza' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/div_frequenza.vhd:44]
+	Parameter clock_frequency_in bound to: 50000000 - type: integer 
+	Parameter clock_frequency_out bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'div_frequenza' (0#1) [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/div_frequenza.vhd:44]
+	Parameter M bound to: 60 - type: integer 
+	Parameter N bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'cont_mod_M' declared at 'D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/cont_mod_M.vhd:28' bound to instance 'contatore_secondi' of component 'cont_mod_M' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'cont_mod_M' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/cont_mod_M.vhd:43]
+	Parameter M bound to: 60 - type: integer 
+	Parameter N bound to: 6 - type: integer 
+WARNING: [Synth 8-614] signal 'input' is read in the process but is not in the sensitivity list [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/cont_mod_M.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'cont_mod_M' (0#1) [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/cont_mod_M.vhd:43]
+	Parameter M bound to: 60 - type: integer 
+	Parameter N bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'cont_mod_M' declared at 'D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/cont_mod_M.vhd:28' bound to instance 'contatore_minuti' of component 'cont_mod_M' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:153]
+	Parameter M bound to: 24 - type: integer 
+	Parameter N bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'cont_mod_M' declared at 'D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/cont_mod_M.vhd:28' bound to instance 'contatore_ore' of component 'cont_mod_M' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:166]
+INFO: [Synth 8-638] synthesizing module 'cont_mod_M__parameterized2' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/cont_mod_M.vhd:43]
+	Parameter M bound to: 24 - type: integer 
+	Parameter N bound to: 6 - type: integer 
+WARNING: [Synth 8-614] signal 'input' is read in the process but is not in the sensitivity list [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/cont_mod_M.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'cont_mod_M__parameterized2' (0#1) [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/cont_mod_M.vhd:43]
+	Parameter N bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'loading_time' declared at 'D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:34' bound to instance 'load_sec' of component 'loading_time' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'loading_time' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:47]
+	Parameter N bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'loading_time' (0#1) [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:47]
+	Parameter N bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'loading_time' declared at 'D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:34' bound to instance 'load_min' of component 'loading_time' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:197]
+	Parameter N bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'loading_time' declared at 'D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:34' bound to instance 'load_hour' of component 'loading_time' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:209]
+INFO: [Synth 8-3491] module 'orologio_board' declared at 'D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio_board.vhd:34' bound to instance 'display' of component 'orologio_board' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:221]
+INFO: [Synth 8-638] synthesizing module 'orologio_board' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio_board.vhd:46]
+WARNING: [Synth 8-614] signal 'dots' is read in the process but is not in the sensitivity list [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio_board.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'orologio_board' (0#1) [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio_board.vhd:46]
+WARNING: [Synth 8-614] signal 'set_h' is read in the process but is not in the sensitivity list [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:232]
+WARNING: [Synth 8-614] signal 'set_m' is read in the process but is not in the sensitivity list [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:232]
+WARNING: [Synth 8-614] signal 'set_s' is read in the process but is not in the sensitivity list [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:232]
+INFO: [Synth 8-256] done synthesizing module 'orologio' (0#1) [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:57]
+WARNING: [Synth 8-7129] Port set in module loading_time is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1277.109 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1277.109 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1277.109 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1277.109 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/orologio_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/orologio_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1298.859 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1298.859 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.859 ; gain = 21.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.859 ; gain = 21.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.859 ; gain = 21.750
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'VALUEs_reg' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:148]
+WARNING: [Synth 8-327] inferring latch for variable 'VALUEm_reg' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:161]
+WARNING: [Synth 8-327] inferring latch for variable 'VALUEh_reg' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:174]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.859 ; gain = 21.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   26 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	                6 Bit    Registers := 6     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input   26 Bit        Muxes := 1     
+	   7 Input    8 Bit        Muxes := 3     
+	  11 Input    8 Bit        Muxes := 3     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 18    
+	   7 Input    3 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 1     
+	   7 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design orologio has port an[7] driven by constant 1
+WARNING: [Synth 8-3917] design orologio has port an[6] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1298.859 ; gain = 21.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1298.859 ; gain = 21.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1316.418 ; gain = 39.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (contatore_ore/internal_y_reg[5]_LDC) is unused and will be removed from module orologio.
+WARNING: [Synth 8-3332] Sequential element (contatore_ore/internal_y_reg[5]_P) is unused and will be removed from module orologio.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1316.418 ; gain = 39.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1318.070 ; gain = 40.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1318.070 ; gain = 40.961
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[5] with 1st driver pin 'load_sec/valore_reg[5]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[5] with 2nd driver pin 'VALUEs_reg[5]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:148]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[4] with 1st driver pin 'load_sec/valore_reg[4]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[4] with 2nd driver pin 'VALUEs_reg[4]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:148]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[3] with 1st driver pin 'load_sec/valore_reg[3]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[3] with 2nd driver pin 'VALUEs_reg[3]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:148]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[2] with 1st driver pin 'load_sec/valore_reg[2]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[2] with 2nd driver pin 'VALUEs_reg[2]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:148]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[1] with 1st driver pin 'load_sec/valore_reg[1]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[1] with 2nd driver pin 'VALUEs_reg[1]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:148]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[0] with 1st driver pin 'load_sec/valore_reg[0]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin out_time[0] with 2nd driver pin 'VALUEs_reg[0]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:148]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[5] with 1st driver pin 'load_min/valore_reg[5]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[5] with 2nd driver pin 'VALUEm_reg[5]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:161]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[4] with 1st driver pin 'load_min/valore_reg[4]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[4] with 2nd driver pin 'VALUEm_reg[4]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:161]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[3] with 1st driver pin 'load_min/valore_reg[3]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[3] with 2nd driver pin 'VALUEm_reg[3]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:161]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[2] with 1st driver pin 'load_min/valore_reg[2]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[2] with 2nd driver pin 'VALUEm_reg[2]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:161]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[1] with 1st driver pin 'load_min/valore_reg[1]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[1] with 2nd driver pin 'VALUEm_reg[1]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:161]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[0] with 1st driver pin 'load_min/valore_reg[0]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEm[0] with 2nd driver pin 'VALUEm_reg[0]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:161]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[5] with 1st driver pin 'load_hour/valore_reg[5]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[5] with 2nd driver pin 'VALUEh_reg[5]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:174]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[4] with 1st driver pin 'load_hour/valore_reg[4]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[4] with 2nd driver pin 'VALUEh_reg[4]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:174]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[3] with 1st driver pin 'load_hour/valore_reg[3]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[3] with 2nd driver pin 'VALUEh_reg[3]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:174]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[2] with 1st driver pin 'load_hour/valore_reg[2]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[2] with 2nd driver pin 'VALUEh_reg[2]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:174]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[1] with 1st driver pin 'load_hour/valore_reg[1]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[1] with 2nd driver pin 'VALUEh_reg[1]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:174]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[0] with 1st driver pin 'load_hour/valore_reg[0]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/loading_time.vhd:56]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VALUEh[0] with 2nd driver pin 'VALUEh_reg[0]/Q' [D:/Progetti_VHDL/Esercizio_3/Esercizio_3.srcs/sources_1/new/orologio.vhd:174]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|       18|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1318.070 ; gain = 40.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1318.070 ; gain = 40.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1318.070 ; gain = 40.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1318.070 ; gain = 40.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    12|
+|3     |LUT1   |     3|
+|4     |LUT2   |    28|
+|5     |LUT3   |    42|
+|6     |LUT4   |    32|
+|7     |LUT5   |    41|
+|8     |LUT6   |    63|
+|9     |MUXF7  |     9|
+|10    |MUXF8  |     1|
+|11    |FDCE   |    83|
+|12    |FDPE   |    17|
+|13    |FDRE   |     3|
+|14    |LD     |    18|
+|15    |LDC    |    17|
+|16    |IBUF   |    29|
+|17    |OBUF   |    16|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1318.070 ; gain = 40.961
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 36 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 1318.070 ; gain = 19.211
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1318.070 ; gain = 40.961
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1330.137 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1333.855 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 35 instances were transformed.
+  LD => LDCE: 18 instances
+  LDC => LDCE: 17 instances
+
+Synth Design complete, checksum: a72517f9
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 15 Warnings, 36 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1333.855 ; gain = 56.746
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/Progetti_VHDL/Esercizio_3/Esercizio_3.runs/synth_1/orologio.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file orologio_utilization_synth.rpt -pb orologio_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  3 22:12:11 2022...
